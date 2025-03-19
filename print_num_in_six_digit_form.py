@@ -3,5 +3,5 @@
 # Ask for user input
 num = input("Enter a number from 0-1000: ")
 
-# Add zeros and print
-print(num.zfill(6))
+# Add zeros using .zfill
+print(num.zfill(6)) # Print the number
