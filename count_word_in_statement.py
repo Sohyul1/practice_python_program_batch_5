@@ -4,6 +4,7 @@
 statement = input("Enter a complete statement: ")
 
 # Use split to split the words
-statement.split()
-# Count the words usinng len
+statement_updated = len(statement.split())   # Count the words usinng len
+
 # Print the statement
+print(statement_updated)
